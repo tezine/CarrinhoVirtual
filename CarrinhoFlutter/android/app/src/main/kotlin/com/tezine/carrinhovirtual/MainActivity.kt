@@ -1,0 +1,6 @@
+package com.tezine.carrinhovirtual
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

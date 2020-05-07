@@ -1,0 +1,1 @@
+"C:/Program Files/dotnet/dotnet.exe" C:\Projetos\RestInPeace\bin\Debug\netcoreapp2.1\RestInPeace.dll --type flutter --rest-in-peace-version v2 --generate-entities true --backend C:/Projetos/CarrinhoVirtual/Portal --frontend C:/Projetos/CarrinhoFlutter

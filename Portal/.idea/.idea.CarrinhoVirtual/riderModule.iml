@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../../../../TazorProject/TazorLib" />
+    <content url="file://$USER_HOME$/.nuget/packages/Syncfusion.Blazor/18.1.0.43/contentFiles/any/netstandard2.1/Nuget.Config" />
+    <content url="file://$USER_HOME$/.nuget/packages/matblazor/2.3.0/contentFiles/any/netstandard2.1/Properties/launchSettings.json" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

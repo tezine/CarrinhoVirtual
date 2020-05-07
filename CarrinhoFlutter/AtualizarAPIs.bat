@@ -1,0 +1,1 @@
+npx openapi-generator generate -i http://localhost:5000/swagger/v1/swagger.json -g dart -o ../MobileAPI

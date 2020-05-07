@@ -1,0 +1,39 @@
+﻿@page "/Produtos"
+@layout LoggedLayout
+@inherits ProdutosBase
+@using Syncfusion.Blazor.Navigations
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            </li>
+            <button type="button" class="btn btn-primary" @onclick="OnBtnAddClicked">Adicionar</button>
+        </ul>
+    </div>
+    <span class="navbar-text">
+        Produtos
+    </span>
+</nav>
+
+<SfUploader AutoUpload="false">
+    <UploaderEvents ValueChange="OnChange"></UploaderEvents>
+</SfUploader>
+
+<div class="container-fluid">
+    @if (produtos == null) {
+        <p><em>Carregando...</em></p>
+    } else {
+        <div class="table mat-elevation-z7">
+            <SfGrid AllowFiltering="true" AllowSorting="true" DataSource="@produtos">
+                <GridColumns>
+                    <GridColumn Field=@nameof(EProduct.Name) HeaderText="Nome"></GridColumn>
+                    <GridColumn Field=@nameof(EProduct.Description) HeaderText="Descrição"></GridColumn>
+                </GridColumns>
+            </SfGrid>
+        </div>
+    }
+</div>
+
+
+
